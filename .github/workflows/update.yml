@@ -7,7 +7,7 @@ jobs:
   update:
     uses: ObsidianPublisher/actions/.github/workflows/update.yml@main
     with:
-      AUTO_MERGE: false
+      AUTO_MERGE: true
       EXCLUDED-FILES: docs/tags.md
       BASE_BRANCH: main
     secrets:
