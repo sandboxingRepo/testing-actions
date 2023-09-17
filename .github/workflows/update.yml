@@ -9,5 +9,6 @@ jobs:
     with:
       AUTO_MERGE: false
       EXCLUDED-FILES: docs/tags.md
+      BASE_BRANCH: main
     secrets:
       GH_TOKEN: ${{ secrets.GH_TOKEN }}
